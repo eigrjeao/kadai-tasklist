@@ -3,7 +3,8 @@
 @section('content')
 
 <!-- ここにページ毎のコンテンツを書く -->
-  <div class="prose ml-4">
+
+    <div class="prose ml-4">
         <h2 class="text-lg">タスク一覧</h2>
     </div>
 
@@ -28,4 +29,9 @@
                 @endforeach
             </tbody>
         </table>
+    @endif
+
+    {{-- メッセージ作成ページへのリンク --}}                                                   //追加
+    <a class="btn btn-primary" href="{{ route('messages.create') }}">新規メッセージの投稿</a> //追加
+
 @endsection
