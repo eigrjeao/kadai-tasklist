@@ -29,7 +29,7 @@
         </table>
     @endif
 
-    {{-- メッセージ作成ページへのリンク --}}                                                   //追加
-    <a class="btn btn-primary" href="{{ route('messages.create') }}">新規メッセージの投稿</a> //追加
+    {{-- メッセージ作成ページへのリンク --}}
+    <a class="btn btn-primary" href="{{ route('tasks.create') }}">新規メッセージの投稿</a>
 
 @endsection
